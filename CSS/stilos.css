@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*evita que el elemento contenedor se desborde*/
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #739;
+    border-bottom: 5px solid #bf40bf;
+}
+
+header .cajaA {
+    width: 70%;
+    padding: 40px 25px;
+    background-color: #739;
+    margin: auto;
+    /* el margin auto es para que el contenedor div este alineado al centro*/
+    color: #eee;
+}
+
+header .cajaA h1 {
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+header .cajaA p {
+    font-size: 1.35rem;
+}
+
+main {
+    width: 100%;
+    background-color: #E0EFDE;
+    color: #4d4d4d;
+}
+
+main .cajaB {
+    width: 70%;
+    background-color: #fff;
+    padding: 70px 25px 25px 25px;
+    margin: auto;
+}
+
+main h2,
+h3 {
+    color: #739;
+}
+
+main h2 {
+    font-size: 2rem;
+}
+
+main h3 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+
+main p {
+    font-size: 1.2rem;
+}
